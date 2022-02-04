@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
 
     'blog.apps.BlogConfig',
+    'taggit',
 ]
 ################################################################
 EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
